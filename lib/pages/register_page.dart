@@ -47,6 +47,11 @@ class _RegisterPageState extends State<RegisterPage> {
                   return null;
                 },
               ),
+              ElevatedButton(onPressed: () {}, child: Text('Register')),
+              TextButton(
+                onPressed: () {},
+                child: Text('Sudah punya akun? Login Sekarang!'),
+              ),
             ],
           ),
         ),
