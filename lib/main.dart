@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:play_navigation/presentation/home_page.dart';
-import 'package:play_navigation/presentation/login_page.dart';
-import 'package:play_navigation/presentation/order_page.dart';
+import 'package:navigation/pages/home_page.dart';
+import 'package:navigation/pages/login_page.dart';
+import 'package:navigation/pages/order_page.dart';
 
 void main() {
   runApp(const MyApp());
