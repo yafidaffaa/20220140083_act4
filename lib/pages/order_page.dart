@@ -26,6 +26,6 @@ class _OrderPageState extends State<OrderPage> {
   @override
   Widget build(BuildContext context) {
     final _formKey = GlobalKey<FormState>();
-    return Scaffold();
+    return Scaffold(appBar: AppBar(title: Text('Order Page')));
   }
 }
